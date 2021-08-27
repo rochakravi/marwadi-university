@@ -1,0 +1,17 @@
+ul{
+    display: flex;
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+    color: #3cc133;
+    padding: 10px 20px;
+    border:1px solid black;
+    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    /* text-align: center; */
+    align-items: center
+}
