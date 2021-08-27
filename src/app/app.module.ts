@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { OffersComponent } from './components/offers/offers.component';
 import { MobilesComponent } from './components/mobiles/mobiles.component';
+import { BtechComponent } from './components/btech/btech.component';
+import { C2021Component } from './components/btech/c2021/c2021.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     OffersComponent,
-    MobilesComponent
+    MobilesComponent,
+    BtechComponent,
+    C2021Component
   ],
   imports: [
     BrowserModule,
